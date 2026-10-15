@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-require_once __DIR__ . "/../src/wings/WingGeometry.php";
+require_once __DIR__ . "/../src/Wings/WingGeometry.php";
 
 use Wings\WingGeometry;
 
