@@ -1,0 +1,18 @@
+name: Wings
+main: Wings\Main
+version: 2.0.0
+api: 5.0.0
+author: NhanAZ
+description: Eighteen particle wing effects for Axolotl-PM
+
+commands:
+  wings:
+    description: Choose or turn off a particle wing effect
+    usage: /wings <effect|off>
+    permission: wings.command
+    aliases: [wingangry, wingbubble, wingcritical, wingenchant, wingflame, wingfire, winghappy, wingheart, winglavadrip, winglava, wingmobspell, wingportal, wingrain, wingredstone, wingsmoke, wingspore, wingwaterdrip, wingwater]
+
+permissions:
+  wings.command:
+    description: Allows a player to choose particle wing effects
+    default: true

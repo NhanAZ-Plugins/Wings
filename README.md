@@ -1,10 +1,18 @@
-# Wings branch index
+# Wings
 
-This repository's `main` branch is an index. Each linked branch contains a separate historical wing plugin in a nested directory, not a plugin built from the root of `main`. The 18 branch manifests declare PocketMine-MP API `1.0.0` and credit `vk.com/eddir`. None of those branches has a license file. Their source has not been ported or tested on Axolotl-PM 5.
+Wings adds eighteen particle wing effects to Axolotl-PM. Players can switch an effect with `/wings <effect>` or turn it off with `/wings off`. The historical effect commands remain available as aliases.
 
-Do not use these branches on a current server or publish modified builds until compatibility and redistribution rights are verified. The links below preserve the original branch names for historical reference.
+## Effects
 
-## Branches
+`angry`, `bubble`, `critical`, `enchant`, `flame`, `fire`, `happy`, `heart`, `lava-drip`, `lava`, `mob-spell`, `portal`, `rain`, `redstone`, `smoke`, `spore`, `water-drip` and `water`.
+
+Only one effect runs per player at a time. Effects last for the current session and are cleared when the player disconnects. The default update interval is one server tick and can be adjusted in `config.yml`.
+
+## Compatibility and verification
+
+Wings requires Axolotl-PM API 5.0.0 or newer. CI runs PHPStan at maximum level and builds against pinned API 5.0.0 and 5.49.1 source revisions. The generated PHAR is smoke-tested on Axolotl-PM 5.49.1. Particle visuals should be confirmed with a connected Bedrock client.
+
+The `main` branch now contains the maintained API 5 plugin. The eighteen previous standalone plugins remain available as historical source branches:
 
 - [AngryWings](https://github.com/NhanAZ-Plugins/Wings/tree/AngryWings)
 - [BubbleWings](https://github.com/NhanAZ-Plugins/Wings/tree/BubbleWings)
@@ -24,3 +32,5 @@ Do not use these branches on a current server or publish modified builds until c
 - [SporeWings](https://github.com/NhanAZ-Plugins/Wings/tree/SporeWings)
 - [WaterDripWings](https://github.com/NhanAZ-Plugins/Wings/tree/WaterDripWings)
 - [WaterWings](https://github.com/NhanAZ-Plugins/Wings/tree/WaterWings)
+
+Wings is authored by NhanAZ and distributed under the [MIT License](LICENSE).
