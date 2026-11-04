@@ -1,6 +1,15 @@
 # Wings
 
-Wings adds eighteen particle wing effects to Axolotl-PM. Players can switch an effect with `/wings <effect>` or turn it off with `/wings off`. The historical effect commands remain available as aliases.
+Eighteen particle wing effects for Axolotl-PM API 5
+
+[![CI](https://github.com/NhanAZ-Plugins/Wings/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/Wings/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/Wings)](https://github.com/NhanAZ-Plugins/Wings/releases/latest)
+[![License](https://img.shields.io/github/license/NhanAZ-Plugins/Wings)](https://github.com/NhanAZ-Plugins/Wings/blob/main/LICENSE)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This plugin targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Plugins](https://github.com/NhanAZ-Plugins).
 
 ## Effects
 
